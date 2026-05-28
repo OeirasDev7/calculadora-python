@@ -1,19 +1,9 @@
-numero1 = float(input("Digite um número: "))
-numero2 = float(input("Digite um número: "))
+# Calculadora em Python
 
-operacao = input("Digite a operação (+, -, *, /):")
+Projeto simples para praticar lógica de programação.
 
-if operacao == "+":
-    print("Resultado:", numero1 + numero2)
-
-elif operacao == "-":
-    print("Resultado:", numero1 - numero2)
-
-elif operacao == "*":
-    print("Resultado:", numero1 * numero2)
-
-elif operacao == "/":
-    print("Resultado:", numero1 / numero2)
-
-else:
-    print("Operação inválida")
+Funções:
+- soma
+- subtração
+- multiplicação
+- divisão
